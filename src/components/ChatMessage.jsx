@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
 export default function ChatMessage({ message, query, isLoading, lastArray, currentQuery }) {
