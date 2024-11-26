@@ -11,10 +11,12 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico"],
       manifest: {
-        name: "To-Do List Application",
-        short_name: "Todo List",
+        name: "Lumoshive AI",
+        short_name: "LumosAI",
+        start_url: "/",
+        display: "standalone",
         description:
-          "ini adalah aplikasi todo list untuk praktek pembuatan pwa",
+          "ini adalah aplikasi Lumoshive AI untuk praktek pembuatan pwa",
         theme_color: "#0d6efd",
         icons: [
           {
